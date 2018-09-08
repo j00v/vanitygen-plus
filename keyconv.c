@@ -152,6 +152,7 @@ main(int argc, char **argv)
 					"MMC : Memorycoin : M\n"
 					"MOG : Mogwai : M\n"
 					"MONA : Monacoin : M\n"
+					"MNP : MNPCoin : M\n"
 					"MUE : Monetary Unit : 7\n"
 					"MYRIAD : Myriadcoin : M\n"
 					"MZC : Mazacoin : M\n"

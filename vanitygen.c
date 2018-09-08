@@ -509,6 +509,7 @@ main(int argc, char **argv)
 					"MMC : Memorycoin : M\n"
 					"MOG : Mogwai : M\n"
 					"MONA : Monacoin : M\n"
+					"MNP : MNPCoin : M\n"
 					"MUE : Monetary Unit : 7\n"
 					"MYRIAD : Myriadcoin : M\n"
 					"MZC : Mazacoin : M\n"
@@ -1467,6 +1468,14 @@ main(int argc, char **argv)
 					"Generating Gravium Address\n");
 					addrtype = 38;
 					privtype = 166;
+					break;
+			}
+			else
+			if (strcmp(optarg, "MNP")== 0) {
+				fprintf(stderr,
+					"Generating MNPCoin Address\n");
+					addrtype = 50;
+					privtype = 55;
 					break;
 			}
 			else

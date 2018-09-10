@@ -1114,9 +1114,9 @@ main(int argc, char **argv)
 			else
 			if (strcmp(optarg, "MNP")== 0) {
 				fprintf(stderr,
-					"Generating MNPCoin Address\n");
-					addrtype = 50;
-					privtype = 55;
+					"Decrypting MNPCoin Address\n");
+					addrtype_opt = 50;
+					privtype_opt = 55;
 					break;
 			}
 			else

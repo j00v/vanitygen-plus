@@ -195,10 +195,10 @@ Current List of Available Coins for Address Generation
 |LBRY | LBRY | b  |
 |LEAF | Leafcoin | f  |
 |LTC | Litecoin | L  |
-|MMC | Memorycoin | M  |
+|MMC | Memorycoin | M  
+|MNP | MNPCoin | M  ||
 |MOG | Mogwai | M  |
 |MONA | Monacoin | M  |
-|MNP | MNPCoin | M  |
 |MUE | Monetary Unit | 7  |
 |MYRIAD | Myriadcoin | M  |
 |MZC | Mazacoin | M  |

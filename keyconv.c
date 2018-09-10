@@ -150,9 +150,9 @@ main(int argc, char **argv)
 					"LEAF : Leafcoin : f\n"
 					"LTC : Litecoin : L\n"
 					"MMC : Memorycoin : M\n"
+					"MNP : MNPCoin : M\n"
 					"MOG : Mogwai : M\n"
 					"MONA : Monacoin : M\n"
-					"MNP : MNPCoin : M\n"
 					"MUE : Monetary Unit : 7\n"
 					"MYRIAD : Myriadcoin : M\n"
 					"MZC : Mazacoin : M\n"
@@ -1109,6 +1109,14 @@ main(int argc, char **argv)
 					"Decrypting Gravium Address\n");
 					addrtype_opt = 38;
 					privtype_opt = 166;
+					break;
+			}
+			else
+			if (strcmp(optarg, "MNP")== 0) {
+				fprintf(stderr,
+					"Generating MNPCoin Address\n");
+					addrtype = 50;
+					privtype = 55;
 					break;
 			}
 			else
